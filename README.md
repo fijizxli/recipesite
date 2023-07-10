@@ -24,8 +24,8 @@ or
     $ conda install django, pillow
 
 ## Create the database
-    $ python makemigrations
-    $ python migrate
+    $ python manage.py makemigrations
+    $ python manage.py migrate
 
 ## Run the server
     $ python manage.py runserver
