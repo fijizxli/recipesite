@@ -29,3 +29,8 @@ or
 
 ## Run the server
     $ python manage.py runserver
+
+![4](./screenshots/4.jpeg)
+![3](./screenshots/3.jpeg)
+![2](./screenshots/2.jpeg)
+![1](./screenshots/1.jpeg)
