@@ -1,0 +1,24 @@
+{% extends 'recipeapp/base.html' %}
+
+{% block content%}
+
+    <h2>Search</h2>
+    
+    <form method="GET" class="search" > 
+    {{ form.as_p }}
+    <input name="q" type="search" placeholder="search..."/>
+
+    <ul class="contentlist">
+        {% for r in recipes %}
+            <li class="contentlist"><a href="{{ r.get_absolute_url }}">{{r.title | capfirst}}</a>
+        {% endfor %}
+    </ul>
+
+    <!--
+    <ul class="contentlist">
+    {% for r in recipes %}
+        <li class="contentlist"><a href="/recipe/{{r.id}}">{{r.title | capfirst}}</a></li>    
+    {% endfor %}
+    </ul>
+
+{% endblock content %}

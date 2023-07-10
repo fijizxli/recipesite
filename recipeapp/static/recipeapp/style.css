@@ -1,0 +1,76 @@
+body {
+    background-color: lightgreen;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p a{
+    color: darkgreen;
+}
+
+p a:hover {
+    color:lightgreen;
+    background-color: darkgreen;
+    opacity: 100%;
+}
+
+nav > ul {
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: xx-large;
+    font-style: normal;
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+img {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+nav > ul > li {
+    float:left;
+}
+
+nav > ul > li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+nav > ul > li a:hover {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+hr {
+    border: solid 4px darkgreen;
+}
+.contentlist {
+    text-indent: 3%;
+    list-style-type: none; 
+}
+
+.contentlist li a{
+    font-size: x-large;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.contentlist li a:hover {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+.addrecipe {
+    margin-left: 8%;
+}

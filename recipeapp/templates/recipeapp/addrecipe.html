@@ -1,0 +1,12 @@
+{% extends 'recipeapp/base.html' %}
+
+{% block content%}
+
+<h2>Add a new recipe:</h2>
+<form method="POST" enctype="multipart/form-data" class="addrecipe">
+    {% csrf_token %}
+    {{ form.as_p }}
+<input type="submit" value="Add"/>
+</form>
+
+{% endblock %}

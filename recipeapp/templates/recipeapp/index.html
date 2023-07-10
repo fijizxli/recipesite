@@ -1,0 +1,11 @@
+{% extends 'recipeapp/base.html' %}
+
+{% block content%}
+    <h2>Latest recipes</h2>
+
+    <ul class="contentlist">
+    {% for r in recipes %}
+        <li class="contentlist"><a href="{{ r.get_absolute_url }}">{{r.title | capfirst}}</a>
+    {% endfor %}
+    </ul>
+{% endblock content%}
