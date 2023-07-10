@@ -8,7 +8,7 @@ or
 
     $ conda create -n envname
 
-##Activate the virtual environment
+## Activate the virtual environment
 venv:
 
     $ source <venv>/bin/activate
