@@ -21,10 +21,10 @@ conda:
     $ pip install django, pillow
 or
 
-    $ conda install django, pillow
+    $ conda install django pillow
 
 ## Create the database
-    $ python manage.py makemigrations
+    $ python manage.py makemigrations recipeapp
     $ python manage.py migrate
 
 ## Run the server
